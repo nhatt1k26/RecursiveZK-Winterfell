@@ -1,0 +1,6 @@
+[submodule "winterfell"]
+	path = winterfell
+	url = https://github.com/facebook/winterfell.git
+[submodule "snarkjs"]
+	path = snarkjs
+	url = https://github.com/iden3/snarkjs
