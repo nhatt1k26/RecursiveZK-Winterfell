@@ -1,0 +1,23 @@
+[workspace]
+members = [
+  "winterfell/utils/core",
+  "winterfell/utils/rand",
+  "winterfell/math",
+  "winterfell/crypto",
+  "winterfell/fri",
+  "winterfell/air",
+  "winterfell/prover",
+  "winterfell/verifier",
+  "winterfell/winterfell",
+   "1_Prover",
+  "examples/example-sum",
+]
+
+
+[profile.release]
+codegen-units = 1
+lto = true
+
+[profile.bench]
+codegen-units = 1
+lto = true
